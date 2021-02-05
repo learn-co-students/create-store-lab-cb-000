@@ -5,7 +5,7 @@ export class App extends Component {
   render() {
     return (
       <div className="App">
-        <UserInput store={this.props.store}/>
+        <UserInput store={this.props.store} />
       </div>
     );
   }
